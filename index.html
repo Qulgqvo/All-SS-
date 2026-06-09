@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AN IQ TOO HIGH?</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+<!-- CINEMATIC INTRO -->
+
+<div id="intro-screen">
+    <div class="intro-content">
+        <div class="intro-heart">🌸</div>
+        <h1>Proof Archive</h1>
+        <p>A collection of undeniable evidence.</p>
+    </div>
+</div>
+
+        <p>
+            
+            
+        </p>
+
+    </div>
+
+</div>
+<!-- Floating Effects -->
+
+<div class="sparkles">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="hearts">
+  <span>🌸</span>
+  <span>🌷</span>
+  <span>🏵️</span>
+  <span>🌼</span>
+</div>
+<div class="petals">
+
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌸</span>
+
+</div>
+
+<!-- LOGIN SCREEN -->
+
+<div id="login-screen">
+
+  <div class="glass-card login-card">
+
+    <div class="bow">🏵️🌼</div>
+
+    <h1>PROOFS</h1>
+
+    <p class="subtitle">
+      BY Qulgqvo 
+    </p>
+
+    <input
+      type="password"
+      id="passcode"
+      placeholder="CODE?">
+
+    <div id="error-message">
+      ✿ Incorrect passcode
+    </div>
+
+    <button onclick="checkPasscode()">
+      Enter
+    </button>
+
+  </div>
+
+</div>
+
+<!-- MAIN WEBSITE -->
+
+<div id="main-site">
+
+  <!-- Music -->
+
+  <audio id="music"preload="auto"loop>
+    <source src="music/bgmusic.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicBtn">
+    🎵 Music
+  </button>
+
+  <!-- Heading -->
+
+  <div class="intro">
+
+    <h1 class="memorial-title">
+      Proofs 💎
+    </h1>
+
+    <p>
+      some 10/10 screenshots.
+    </p>
+
+  </div>
+
+  <!-- Slides -->
+
+  <section class="slider-container">
+   <div id="slideCounter"></div>
+
+    <!-- Slide 1 -->
+
+    <div class="glass-card photo-card active-slide">
+
+      <img src="images/photo1.jpg" alt="Photo 1">
+
+      <h2>PHOTO 1</h2>
+
+      <p>
+        PROOF THAT YOU GOT LOW IQ.
+      </p>
+
+    </div>
+
+    <!-- Slide 2 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo2.jpg" alt="Photo 2">
+
+      <h2>PHOTO 2</h2>
+
+      <p>
+        Proof that YR a pedo.
+      </p>
+
+    </div>
+
+    <!-- Slide 3 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo3.jpg" alt="Photo 3">
+
+      <h2>PHOTO 3</h2>
+
+      <p>
+        PROOF THAT YR A LESBIAN.
+      </p>
+
+    </div>
+
+    <!-- Slide 4 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo4.jpg" alt="Photo 4">
+
+      <h2>PHOTO 4</h2>
+
+      <p>
+        PROOF THAT YR A COPY CAT 🐈.
+      </p>
+
+    </div>
+
+    <!-- Slide 5 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo5.jpg" alt="Photo 5">
+
+      <h2>PHOTO 5</h2>
+
+      <p>
+        PROOF THAT U SAID THE N-WORD.
+      </p>
+
+    </div>
+
+    <!-- Slide 6 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo6.jpg" alt="Photo 6">
+
+      <h2>PHOTI 6</h2>
+
+      <p>
+        PROOF THAT U WERE RAGEBAITING ME OVER MY TYPOS😡.
+      </p>
+
+    </div>
+
+    <!-- Slide 7 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo7.jpg" alt="Photo 7">
+
+      <h2>PHOTO 7</h2>
+
+      <p>
+        PEDO SHI AGAIN BUT WITH FREAKINESS💔.
+      </p>
+
+    </div>
+
+    <!-- Slide 8 -->
+
+    <div class="glass-card photo-card">
+
+      <img src="images/photo8.jpg" alt="Photo 8">
+
+      <h2>PHOTO 8</h2>
+
+      <p>
+        THE GOATED ONE.
+      </p>
+
+    </div>
+
+    <!-- Final Tribute -->
+
+    <div class="glass-card photo-card tribute-slide">
+
+      <h2>🌼THAT'S ALL I GOT GNG🌼</h2>
+
+      <p>
+        Ig its enough? right??.
+      </p>
+
+      <div class="tribute-heart">
+        
+      </div>
+
+    </div>
+
+      <!-- Navigation -->
+
+  <div class="nav-buttons">
+
+    <button onclick="prevSlide()">
+      ← Previous
+    </button>
+
+    <button onclick="nextSlide()">
+      Next →
+    </button>
+
+  </div>
+
+  <!-- Dots -->
+
+  <div class="dots">
+
+    <span class="dot active-dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+
+</div>
+
+</section>
+
+<section class="timeline-section">
+
+    <h2 class="section-title">
+        
+    </h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item glass-card reveal">
+            <h3>🌸 fact no.1 🌸</h3>
+            <p>
+                Yr short af gng just accept it.
+            </p>
+        </div>
+
+        <div class="timeline-item glass-card reveal">
+            <h3>🌼 fact no.2 🌼</h3>
+            <p>
+                YR 100% Lesbian not 1%.
+            </p>
+        </div>
+
+        <div class="timeline-item glass-card reveal">
+            <h3>✨ Fact no.3 ✨ </h3>
+            <p>
+                Nikk's Funny.
+            </p>
+        </div>
+
+        <div class="timeline-item glass-card reveal">
+            <h3>🏵️ Fact no.4 🏵️</h3>
+            <p>
+                Yr slow and dumb af gng.
+            </p>
+</div>
+
+    </div>
+</section>
+
+<section class="gallery-section">
+    <h2 class="section-title">
+        👉🏻Proofs Wall👈🏻
+    </h2>
+
+    <div class="polaroid-grid">
+
+        <div class="polaroid reveal">
+            <img src="images/photo1.jpg">
+        </div>
+
+        <div class="polaroid reveal">
+            <img src="images/photo2.jpg">
+        </div>
+
+        <div class="polaroid reveal">
+            <img src="images/photo3.jpg">
+        </div>
+
+        <div class="polaroid reveal">
+            <img src="images/photo4.jpg">
+        </div>
+
+        <div class="polaroid reveal">
+            <img src="images/photo5.jpg">
+        </div>
+
+        <div class="polaroid reveal">
+            <img src="images/photo6.jpg">
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox">
+
+    <span id="closeLightbox">
+        ✕
+    </span>
+
+    <img id="lightboxImg" src="">
+
+</div>
+<div class="glass-dock">
+
+    <button id="dockMusic">
+        🎵
+    </button>
+
+    <button id="dockGallery">
+        🖼️
+    </button>
+
+    <button id="dockTop">
+        ⬆️
+    </button>
+
+</div>
+<div id="particles"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
